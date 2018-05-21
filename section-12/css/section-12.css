@@ -8,6 +8,12 @@
     height: auto;
     padding: 50px 0 50px 0
 }
+.wrapper_light-section {
+    margin: 0 auto
+}
+.wrapper_light-section-header {
+    width: 100%;
+}
 .wrapper_light-section-title {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -41,6 +47,9 @@
     width: 260px;
     margin: 0 auto;
     text-align: center
+}
+.wrapper_light-section-main {
+    width: 100%;
 }
 .wrapper_light-section-list {
     width: 270px;
@@ -100,4 +109,87 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%) 
+}
+@media (min-width: 768px) {
+    .wrapper_light-section {
+        width: 690px;
+    }
+    .wrapper_light-section-header {
+        width: 330px;
+
+    }
+    .wrapper_light-section-title,
+    .wrapper_light-section-text {
+        margin-left: 0
+    }
+    .wrapper_light-section-title {
+        text-align: left;
+        font-size: 30px;
+        width: 240px;
+    }
+    .wrapper_light-section-title::after {
+        display: none;
+    }
+    .wrapper_light-section-text {
+        margin-top: 30px;
+        text-align: right;
+
+    }
+    .wrapper_light-section-text_primary::after {
+        display: block;
+        content: " ";
+        width: 250px;
+        height: 2px;
+        background-color: #000000; 
+        margin: 2px auto 2px auto;
+    }
+    .wrapper_light-section-text_secondary {
+        text-align: right
+    }
+    .wrapper_light-section-main {
+        display: flex;
+        justify-content: space-between
+    }
+    .wrapper_light-section-list {
+        width: 330px;
+    }
+    .wrapper_light-section-list::after {
+        display: block;
+        content: " ";
+        width: 220px;
+        height: 2px;
+        background-color: #000000; 
+        margin-left: -30px;
+        margin-bottom: 20px;
+    }
+    .wrapper_light-section-text_last::after {
+        display:block;
+        content: " ";
+        width: 2px;
+        height: 100px;
+        background-color: #000000; 
+        position: relative;
+        left: -20px;
+        bottom: 70px
+    }
+    .wrapper_light-section-text_last {
+        background-position-y: 120px;
+    }
+    .wrapper_light-section-article {
+        position: relative;
+        padding-top: 150px;
+        padding-bottom: 60px;
+        top: -190px;
+        padding-right: 40px;
+        width: 330px;
+        background: url(../img/video-bg.png) no-repeat;
+        background-position-y: -50px
+
+    }
+    .wrapper_light-section-article-list-item_video {
+        width: 310px;
+        height: auto;
+        margin-left: -10px;
+        box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+    }
 }
