@@ -93,3 +93,47 @@
     font-weight: 600;
     padding-top: 10px
 }
+@media (min-width: 768px) {
+    .wrapper_silver-section {
+        width: 720px;
+
+    }
+    .wrapper_silver-section-title {
+        width: 620px;
+    }
+    .wrapper_silver-section-subtitle {
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    .wrapper_silver-section-text_primary {
+        color: #00bcd4;
+        background-color: #000000;
+        display: block;
+        width: 80px;
+        margin: 0 auto;
+        padding-top: 5px;
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    .wrapper_silver-section-text_primary::after {
+        width: 350px;
+        position: relative;
+        left: -130px;
+    }
+    .wrapper_silver-section-menu {
+        width: 490px;
+        margin-right: 0;
+        margin-top: 30px;
+        position: relative;
+    }
+    .wrapper_silver-section-menu::before {
+        display: block;
+        content: url(../img/calendar.png);
+        width: 330px;
+        height: 500px;
+        position: absolute;
+        left: -220px;
+        top: -20px;
+    }
+}
