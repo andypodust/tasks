@@ -1,0 +1,95 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.wrapper_silver {
+    background-image: url(../img/light-bg.png); 
+    min-width: 320px;
+    height: auto;
+    padding: 50px 0 50px 0
+}
+.wrapper_silver-section-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    width: 285px;
+    margin: 0 auto
+}
+.wrapper_silver-section-title::before {
+    content: "_";
+    color: #00bcd4
+}
+.wrapper_silver-section-subtitle {
+    width: 180px;
+    margin: 0 auto
+}
+.wrapper_silver-section-text_primary {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 20px;
+}
+.wrapper_silver-section-text_primary::after {
+    display: block;
+    content: " ";
+    width: 180px;
+    height: 2px;
+    background-color: #000000; 
+    margin: 5px 0 5px 0px;
+}
+
+.wrapper_silver-section-text_secondary {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #00bcd4
+}
+.wrapper_silver-section-menu {
+    list-style-type: none;
+    width: 290px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding-top: 40px;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+}
+.wrapper_silver-section-menu-item {
+    min-height: 100px;
+    
+}
+
+.wrapper_silver-section-menu-item-day {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    height: 30px;
+    width: 60%;
+    background-color: #cecece;
+    text-align: right;
+    line-height: 30px;
+    padding-right: 25px
+}
+.wrapper_silver-section-menu-item-time {
+    display: inline-block;
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 800;
+    font-size: 16px;
+    width: 35%;
+    height: 30px;
+    text-align: right;
+    line-height: 30px;
+    color: #00bcd4
+}
+.wrapper_silver-section-menu-item_actions {
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 10px
+}

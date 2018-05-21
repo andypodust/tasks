@@ -1,0 +1,249 @@
+* { 
+    margin: 0;
+    box-sizing: border-box
+}
+.wrapper_blue {
+    background-image: url(../img/dark-bg.png); 
+    min-width: 320px;
+    height: auto;
+    padding: 50px 0 50px 0
+}
+.wrapper_blue-section {
+    width: 290px;
+    margin: 0 auto;
+}
+.wrapper_blue-section-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff
+}
+.wrapper_blue-section-title::before {
+    content: "_";
+    color: #00bcd4
+}
+.wrapper_blue-section-title::after {
+    display: block;
+    content: " ";
+    width: 150px;
+    height: 2px;
+    background-color: #fff; 
+    margin: 20px auto 20px auto;
+}
+.wrapper_blue-section-text_start,
+.wrapper_blue-section-text_garant,
+.wrapper_blue-section-text_time {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 25px
+}
+.wrapper_blue-section-text_garant {
+    margin-top: 50px;
+    text-align: left
+}
+.section-text_garant-blue {
+    color: #00bcd4
+}
+.section-text_garant-second {
+    text-transform: none;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff
+}
+.wrapper_blue-section-text_time {
+    text-transform: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    background-color: #3c3c3c;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29)
+}
+.wrapper_blue-section-menu,
+.wrapper_blue-section-submenu,
+.wrapper_blue-section-submenu-list,
+.wrapper_blue-section-payment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    color: #fff
+}
+.wrapper_blue-section-menu-item {
+    width: 100%;
+    background-color: #313133;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29)
+}
+.wrapper_blue-section-menu-item-title {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    display: block;
+    height: 85px;
+    background-color: #3c3c3c;
+    text-align: center;
+    padding-top: 25px;
+    border-bottom: 1px solid #464648;
+    margin-bottom: 20px
+}
+.wrapper_blue-section-menu-item-title_blue {
+    color: #00bcd4;
+}
+.wrapper_blue-section-submenu_item {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.submenu_item-text-blue {
+    color: #00bcd4;
+    font-weight: 800
+}
+.wrapper_blue-section-submenu-text {
+    width: 260px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    margin-bottom: 20px
+}
+.submenu_text-blue {
+    color: #00bcd4
+}
+.wrapper_blue-section-submenu-list-header {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 170px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px #fff solid;
+    margin-bottom: 20px;
+    position: relative;
+}
+.wrapper_blue-section-submenu-list-header::before,
+.wrapper_blue-section-submenu-list-header::after {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 40px;
+    display: block;
+    content: " ";
+    width: 45px;
+    height: 10px;
+    margin: 0;
+    background-color: #313133;
+}
+.wrapper_blue-section-submenu-list-header::after {
+    width: 70px;
+    left: 120px
+}
+.wrapper_blue-section-submenu-list {
+    width: 100%;
+    margin: 0 auto
+}
+.wrapper_blue-section-submenu-list-item {
+    font-family: 'Ubuntu Mono', monospace;
+    width: 270px;
+    height: 65px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 14px;
+    background-color: #2b2b2d;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.wrapper_blue-section-submenu-text_value {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.text_value_yellow {
+    color: #ffc600;
+}
+.text_value_green {
+    color: #5cc497;
+}
+.link_begin {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+    width: 250px;
+    height: 55px;
+    background-image: linear-gradient(to right, #ffb41b, #fb193c);
+    text-decoration: none;
+    line-height: 55px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+}
+.link_begin:hover {
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.60);
+    transition-duration: 0.2s
+}
+.wrapper_blue-section-payment-header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.wrapper_blue-section-payment-list {
+    width: 290px;
+    margin: 0 auto
+}
+.wrapper_bluer-section-payment-list_item {
+    width: 100%;
+    height: 120px;
+    background-color: #2a292c;
+    border-bottom: #464648 1px solid;
+    text-align: center;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.wrapper_bluer-section-payment-list_item::before {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    content: url(../img/wallet.png)
+}
+.wrapper_bluer-section-payment-list_item:last-child {
+    border-bottom: none;
+    box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+}
+.wrapper_bluer-section-payment-list_item:nth-child(2)::before {
+    content: url(../img/credit-card.png)
+}
+.wrapper_bluer-section-payment-list_item:nth-child(3)::before {
+    content: url(../img/rich.png);
+    background: url(../img/stopwatch.png) no-repeat 103px 21px;
+}
