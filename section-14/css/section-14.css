@@ -247,3 +247,55 @@
     content: url(../img/rich.png);
     background: url(../img/stopwatch.png) no-repeat 103px 21px;
 }
+@media (min-width: 768px) {
+    .wrapper_blue-section {
+        width: 690px;
+    }
+    .wrapper_blue-section-title {
+        font-size: 28px;
+        width: 530px;
+    }
+    .wrapper_blue-section-title::after {
+        display: none;
+    }
+    .wrapper_blue-section-text_start {
+        display: block;
+        padding-top: 35px;
+        width: 325px;
+        border-bottom: 2px solid #fff;
+        text-align: right
+    }
+    .wrapper_blue-section-text_garant {
+        font-size: 16px;
+
+    }
+    .wrapper_blue-section-text_time {
+        font-size: 18px
+    }
+    .wrapper_blue-section-menu {
+        display: flex;
+        justify-content: space-between
+    }
+    .wrapper_blue-section-menu-item {
+        width: 330px;
+    }
+    .wrapper_blue-section-payment-header {
+        width: 100%;
+        font-size: 16px
+    }
+    .wrapper_blue-section-payment-list {
+        display: flex;
+        width: 100%;
+        box-shadow: 0px 8px 19px 0px rgba(0,0,0,0.29);
+    }
+    .wrapper_bluer-section-payment-list_item:last-child {
+        box-shadow: none;
+        border-right: none
+    }
+    .wrapper_bluer-section-payment-list_item {
+        border-right: #464648 1px solid;
+        border-bottom: none
+       
+    }
+
+}
