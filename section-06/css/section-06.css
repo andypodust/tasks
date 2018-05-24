@@ -167,3 +167,112 @@
         margin-left: 150px
     }
 }
+@media (min-width: 1150px) {
+    .wrapper_silver {
+        background: transparent;
+        padding-top: 0;
+        /* margin-top: -320px */
+    }
+    .first_blue-bg {
+        display: block;
+        width: 720px;
+        height: 200px;
+        margin: 0 auto;
+        background: url("../img/blue-bg.png");
+        position: relative;
+        top: 840px;
+        left: 300px;
+       
+    }
+    .first_silver-bg {
+        display: block;
+        background: url(../img/silver-bg-figure.png) no-repeat 400px 190px,
+                    url(../img/light-bg.png);
+        width: 100%;
+        min-width: 1150px;
+        height: 1250px;
+        margin-bottom: -1400px;
+        top: -200px;
+        clip-path: polygon(0 0, 100% 0, 100% 69%, 0 100%);
+        position: relative;
+    }
+    .wrapper_silver-section {
+        width: 1150px;
+        margin-top: -200px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .wrapper_silver-section::before {
+        display: block;
+        content: " ";
+        width: 40px;
+        height: 640px;
+        position: absolute;
+        left: -250px;
+        top: -20px;
+        box-shadow: 9px 7px 21px -6px rgba(0,0,0,0.2);
+    }
+    .wrapper_silver-section::after {
+        display: block;
+        content: " ";
+        width: 65px;
+        height: 766px;
+        position: absolute;
+        left: 1300px;
+        top: 150px;
+        background: url(../img/light-bg.png);
+        box-shadow: 9px 7px 21px -6px rgba(0,0,0,0.2);
+        opacity: 0.5;
+    }
+    .wrapper_silver-section-title {
+        font-size: 42px;
+        width: 100%;
+        margin-bottom: 50px
+    }
+    .wrapper_silver-section-subtitle {
+        font-size: 18px;
+        margin-bottom: 50px;
+        width: 430px;
+    }
+    .wrapper_silver-section-text_primary::after {
+        width: 400px;
+        height: 3px;
+    }
+    .wrapper_silver-section-menu {
+        width: 560px;
+        height: 660px;
+        margin-right: 120px;
+        margin-top: 100px;
+        
+        
+    }
+    .wrapper_silver-section-menu::before {
+        content: url(../img/calendar-desktop.png);
+        left: -360px;
+        top: -50px
+    }
+    .wrapper_silver-section-menu::after {
+        font-size: 50px;
+        top: 20px;
+        height: 50px;
+        left: -180px;
+    }
+    .wrapper_silver-section-menu-item {
+        padding-left: 20px;
+        min-height: 120px
+    }
+    
+    .wrapper_silver-section-menu-item-day,
+    .wrapper_silver-section-menu-item_actions {
+        font-size: 18px;
+    }
+    .wrapper_silver-section-menu-item-time {
+        font-size: 24px;
+        padding-left: 20px
+    }
+
+    
+    
+
+
+}
