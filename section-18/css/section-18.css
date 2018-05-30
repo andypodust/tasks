@@ -105,8 +105,11 @@
 @media (min-width: 768px) {
     .wrapper_suit {
         position: relative;
+        background: url(../img/check-x.png) no-repeat right 570px,#2c2b2f;
+        background-size: 30%;
+        
     }
-    .wrapper_suit::after {
+    .wrapper_suit::before {
         content: " ";
         display: block;
         width: 50%;
@@ -116,13 +119,26 @@
         top: 0;
         bottom: 0;
     }
+    
     .wrapper_suit-section {
         position: relative;
-        z-index: 3;
+        z-index: 2;
     }
     .wrapper_suit-section-title {
         font-size: 30px;
-
+        z-index: 4;
+    }
+    .wrapper_suit-section-title::after {
+        content: "";
+        display: block;
+        background: url(../img/check-v.png) no-repeat;
+        width: 100%;
+        background-size: 40%;
+        height: auto;
+        position: absolute;
+        top: 80px;
+        left: -50px;
+        bottom: 0;
     }
     .wrapper_suit-section-title br {
         display: none;
@@ -138,7 +154,8 @@
         margin-top: 25px;
         width: 345px;
         padding-right: 30px;
-        padding-bottom: 30px
+        padding-bottom: 30px;
+        z-index: 4;
     }
     .wrapper_suit-section-article:nth-child(2) {
         background-color: #f5f5f5
@@ -165,4 +182,61 @@
     .link_begin {
         width: 300px;
     }
+
+}
+@media (min-width:1151px) {
+    .wrapper_suit {
+        position: relative;
+        background: url(../img/check-x.png) no-repeat 90% 75%,#2c2b2f;
+        background-size: 30%;
+    }
+    .wrapper_suit-section-title::after {
+        left: 150px;
+        top: 150px;
+        background-size: 35%
+    }
+    .wrapper_suit-section-title {
+        font-size: 42px;
+        padding-bottom: 100px
+    }
+    .wrapper_suit-section-article {
+        width: 570px;
+        height: 720px;
+    }
+    .wrapper_suit-section-article_title {
+        font-size: 30px
+    }
+    .article_list-item {
+        font-size: 18px;
+        padding: 0 80px 40px 20px;
+    }
+    .wrapper_suit-section-text {
+        font-size: 17px;
+        width: 570px;
+        margin-left: -180px;
+        line-height: 30px
+    }
+    .wrapper_suit-section-text-underline {
+        border-bottom: none;
+        position: relative;
+    }
+    .wrapper_suit-section-text-underline::after {
+        display: inline-block;
+        content: " ";
+        width: 350px;
+        height: 4px;
+        background-color: #00bcd4;
+        position: absolute;
+        left: -65px;
+        top: 20px
+        
+    }
+    .link_begin {
+        width: 320px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 16px;
+        margin-right: -90px
+    }
+
 }

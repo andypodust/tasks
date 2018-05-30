@@ -167,7 +167,7 @@
         margin-left: 150px
     }
 }
-@media (min-width: 1150px) {
+@media (min-width: 1151px) {
     .wrapper_silver {
         background: transparent;
         padding-top: 0;
@@ -237,6 +237,12 @@
     .wrapper_silver-section-text_primary::after {
         width: 400px;
         height: 3px;
+    }
+    .wrapper_silver-section-text_primary {
+
+    }
+    .wrapper_silver-section-text_secondary {
+        color: #000000
     }
     .wrapper_silver-section-menu {
         width: 560px;

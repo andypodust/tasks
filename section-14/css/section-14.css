@@ -3,7 +3,7 @@
     box-sizing: border-box
 }
 .wrapper_blue {
-    background-image: url(../img/dark-bg.png); 
+    background: url(../img/dark-bg.png) repeat; 
     min-width: 320px;
     height: auto;
     padding: 50px 0 50px 0
@@ -298,4 +298,94 @@
        
     }
 
+}
+@media (min-width: 1151px) {
+    .wrapper_blue {
+        background: url(../img/wrapper-bg-left.png) no-repeat left 400px,
+                    url(../img/wrapper-bg-right.png) no-repeat right 600px,
+                    url(../img/dark-bg.png)
+    }
+    .wrapper_blue-section {
+        width: 1150px;
+    }
+    .wrapper_blue-section-title {
+        font-size: 42px;
+        width: 70%;
+    }
+    .wrapper_blue-section-text_start {
+        font-size: 20px;
+        width: 425px;
+        border-bottom: 3px solid #fff
+    }
+    .wrapper_blue-section-menu-item {
+        width: 560px;
+        height: 1000px;
+    }
+    .wrapper_blue-section-text_garant {
+        font-size: 18px
+    }
+    .wrapper_blue-section-menu {
+        margin-bottom: 60px;
+    }
+    .wrapper_blue-section-menu-item-title {
+        font-size: 22px;
+        height: 110px;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 30px
+    }
+    .wrapper_blue-section-submenu_item-text {
+        font-size: 18px;
+    }
+    .wrapper_blue-section-submenu {
+        margin-bottom: 40px
+    }
+    
+    .wrapper_blue-section-submenu-text {
+        font-size: 18px;
+        width: 340px;
+    }
+    .wrapper_blue-section-submenu-list-item {
+        width: 500px;
+        height: 80px;
+        font-size: 18px;
+        padding-left: 40px;
+    }
+  
+    .wrapper_blue-section-submenu-list-item::before {
+        display: block;
+        content: " ";
+        width: 60px;
+        height: 1px;
+        background-color: #00bcd4;
+        position: relative;
+        left: -80px;
+        top: 20px
+    }
+    .wrapper_blue-section-submenu-text_value {
+        font-size: 50px;
+        margin-top: 40px
+    }
+    .link_begin {
+        width: 325px;
+        font-size: 20px;
+        height: 60px;
+        line-height: 60px
+    }
+    .wrapper_blue-section-payment-header {
+        font-size: 18px;
+        margin-bottom: 30px
+    }
+    .wrapper_bluer-section-payment-list_item {
+        text-align: center;
+        font-size: 22px
+    }
+    .wrapper_bluer-section-payment-list_item::before {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        top: 15px;
+        left: -10px;
+    }
+   
 }

@@ -152,7 +152,7 @@
 @media (min-width: 768px) {
 
     .wrapper_grey-section {
-        width: 720px;
+        width: 690px;
         background-color: #f8f8f8;
         padding-bottom: 40px;
     }
@@ -230,10 +230,8 @@
     .wrapper_grey-section-article-bot-title_last {
         margin-top: 20px
     }
-    
-    
 }
-@media (min-width: 1150px) {
+@media (min-width: 1151px) {
     .wrapper_fluid_grey {
         background: transparent;
         padding-top: 0;
@@ -272,8 +270,6 @@
     .wrapper_grey-section {
         position: relative;
         margin: 0 auto;
-
-        /* top: -80px; */
         width: 1240px;
         background-color: transparent;
     }
@@ -374,15 +370,12 @@
         padding-top: 40px;
         top: -300px;
         left: 250px;
-        
     }
     .wrapper_grey-section-article-bot-title_last {
         font-size: 22px;
         margin-bottom: 0;
         position: relative;
-       
     }
-
     .wrapper_grey-section-article-bot-text_last {
         font-size: 18px
     }
